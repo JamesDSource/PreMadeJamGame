@@ -6,7 +6,7 @@ hsp = approach(hsp, max_spd * dir, acc);
 if(hsp != 0) image_xscale = sign(hsp);
 
 // jump
-if(place_meeting(x, y+1, oBlock) && keyboard_check_pressed(vk_space)) vsp = -3;
+if(place_meeting(x, y+1, oBlock) && keyboard_check_pressed(vk_space)) vsp = -4;
 
 
 if(place_meeting(x + hsp, y, oBlock)) {
