@@ -20,3 +20,6 @@ if(place_meeting(x, y + vsp, oBlock)) {
 
 x += hsp;
 y += vsp;
+
+if (keyboard_check(ord("K")))
+	global.playerHealth -= 1;
