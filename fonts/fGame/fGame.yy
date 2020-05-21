@@ -4,7 +4,7 @@
     "mvc": "1.1",
     "name": "fGame",
     "AntiAlias": 1,
-    "TTFName": "",
+    "TTFName": "${project_dir}\\fonts\\fGame\\Pre_made Jam font.ttf",
     "ascenderOffset": 0,
     "bold": false,
     "charset": 0,
@@ -1454,7 +1454,7 @@
         }
     ],
     "hinting": 0,
-    "includeTTF": false,
+    "includeTTF": true,
     "interpreter": 0,
     "italic": false,
     "kerningPairs": [
