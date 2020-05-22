@@ -1,1 +1,1 @@
-ds_grid_destroy(map);
+ds_list_destroy(spaces);
