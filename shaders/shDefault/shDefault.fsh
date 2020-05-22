@@ -6,14 +6,32 @@ varying vec4 v_vColour;
 
 uniform vec3 pal_black;
 uniform vec3 pal_white;
+uniform vec3 pal_dkgray;
+uniform vec3 pal_ltgray;
 
 void main() {
 	vec4 base_col = v_vColour * texture2D( gm_BaseTexture, v_vTexcoord );
-	vec4 mod_col = base_col;
-	float average = (base_col.r + base_col.g + base_col.b)/3.0;
+	vec3 mod_col = base_col.rgb;
+	float value = base_col.r;
 	
-	if(average == 0.0) {mod_col = vec4(pal_black, mod_col.a);}
-	else if(average == 1.0) {mod_col = vec4(pal_white, mod_col.a);}
+	// Black
+	if(value == 0.0) {
+		mod_col = pal_black;
+	}
 	
-    gl_FragColor = mod_col;
+	// White
+	if(value == 1.0) {
+		mod_col = pal_white;
+	}
+
+	// Dark Gray
+	if(value == (100.0/255.0)) {
+		mod_col = pal_dkgray;
+	}
+	
+	// Light Gray
+	if(value == (200.0/255.0)) {
+		mod_col = pal_ltgray;
+	}
+    gl_FragColor = vec4(mod_col, base_col.a);
 }
