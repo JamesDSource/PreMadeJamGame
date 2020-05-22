@@ -5,16 +5,6 @@
     "name": "oPalette",
     "eventList": [
         {
-            "id": "63f811c3-5a78-49c9-9d2e-46f3b3126b6e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 72,
-            "eventtype": 8,
-            "m_owner": "c10aef7b-67d4-4f56-88e9-616e06a4a8a0"
-        },
-        {
             "id": "1c333661-dd0d-4db0-b36c-a88c5eaa8acc",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "c10aef7b-67d4-4f56-88e9-616e06a4a8a0"
+        },
+        {
+            "id": "c3f1340f-7eac-4a63-a5e4-5df7b6f56293",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 72,
+            "eventtype": 8,
             "m_owner": "c10aef7b-67d4-4f56-88e9-616e06a4a8a0"
         }
     ],
