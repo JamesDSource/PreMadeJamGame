@@ -21,11 +21,5 @@ if(place_meeting(x, y + vsp, oBlock)) {
 x += hsp;
 y += vsp;
 
-if (keyboard_check(ord("K")) && iFrame <= 0)
-{
+if (keyboard_check(ord("K")))
 	global.playerHealth -= 1;
-	iFrame = 120;
-}
-
-if (iFrame > 0)
-	iFrame--;
