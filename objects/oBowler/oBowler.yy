@@ -1,28 +1,28 @@
 {
-    "id": "a0f93641-94bf-4604-97fd-39ebb1ac8029",
+    "id": "ffee17bf-079b-4c4c-8e9d-e5868e0515ab",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oBowler",
     "eventList": [
         {
-            "id": "2cdc1bdb-083a-4a33-a744-f7aa797eae56",
+            "id": "b795a33e-0fc7-408e-9888-bebc8d820ce2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "a0f93641-94bf-4604-97fd-39ebb1ac8029"
+            "m_owner": "ffee17bf-079b-4c4c-8e9d-e5868e0515ab"
         },
         {
-            "id": "aa12460a-8d8f-4579-8152-415a2dc9cbbd",
+            "id": "68847392-9704-48cf-9314-ca560ad197b5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "a0f93641-94bf-4604-97fd-39ebb1ac8029"
+            "m_owner": "ffee17bf-079b-4c4c-8e9d-e5868e0515ab"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
