@@ -17,5 +17,16 @@ if(place_meeting(x, y+1, oBlock) && keyboard_check_pressed(vk_space)) vsp = -4;
 
 event_inherited();
 
-if (keyboard_check(ord("K")))
+// remove health
+if (keyboard_check(ord("K")) && i_frame == 0)
 	global.playerHealth -= 1;
+
+// i_frames after damage
+if (global.playerHealth != global.playerHealthLast)
+{
+	global.playerHealthLast = global.playerHealth;
+	i_frame = i_frame_max;
+}
+
+if (i_frame > 0)
+	i_frame--;
