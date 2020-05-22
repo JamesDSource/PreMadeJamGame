@@ -3,10 +3,8 @@ vsp += GRAVITY;
 var dir = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 hsp = approach(hsp, max_spd * dir, acc);
 
-if(hsp != 0) {
-	image_xscale = sign(hsp);
-	image_speed = 1;	
-}
+if(hsp != 0) image_xscale = sign(hsp);
+if(hsp != 0 && place_meeting(x, y + 1, oBlock)) image_speed = 1;	
 else {
 	image_speed = 0;
 	image_index = 0;
