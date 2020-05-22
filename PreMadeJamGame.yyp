@@ -234,7 +234,7 @@
             "Key": "4076b87a-a03d-4114-9412-cbb44f771534",
             "Value": {
                 "id": "bf215a2c-d012-4847-9220-624f5c908fa9",
-                "resourcePath": "sprites\\sBowler\\sBowler.yy",
+                "resourcePath": "sprites\\sCreature\\sCreature.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -423,14 +423,6 @@
             }
         },
         {
-            "Key": "a0f93641-94bf-4604-97fd-39ebb1ac8029",
-            "Value": {
-                "id": "d8dfb12c-676b-4693-8ec1-3702b4c92170",
-                "resourcePath": "objects\\oBowler\\oBowler.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "a5accb98-f1fa-4d6c-be61-a4e2c7209467",
             "Value": {
                 "id": "af33da8c-4b1c-4274-9f51-e45305961a29",
@@ -588,14 +580,6 @@
                 "id": "e247b666-73bb-49ae-ba66-ec986bbf7afc",
                 "resourcePath": "sprites\\sBirds\\sBirds.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d5b7614a-06ae-4eeb-9419-1e5fe9ddd40e",
-            "Value": {
-                "id": "7b6d3667-81c6-4291-aa9c-f7d910a4099c",
-                "resourcePath": "objects\\oZombie\\oZombie.yy",
-                "resourceType": "GMObject"
             }
         },
         {

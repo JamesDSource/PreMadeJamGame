@@ -6,4 +6,3 @@ hsp = 0;
 
 global.playerHealthMax = 3;
 global.playerHealth = 3;
-iFrame = 0;
