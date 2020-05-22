@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "67a36931-3258-46a9-b7c5-a8a0fbc9e9f9",
+            "Value": {
+                "id": "30a0efae-0c1a-4406-8135-f72c46361080",
+                "resourcePath": "objects\\oPlatform\\oPlatform.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6cc813e6-44dc-45f6-a487-9c45d33f8033",
             "Value": {
                 "id": "0e2d666b-319f-45d7-a5b6-9913938b73e5",
@@ -332,6 +340,14 @@
                 "id": "671fee33-d0d8-4dea-a7a3-1b2de27aa131",
                 "resourcePath": "views\\7a6e18d7-d851-4db3-b007-8db4a84fd46a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7ae3fb5e-a4f1-450f-ba6a-96c31c2ffe9b",
+            "Value": {
+                "id": "8f46b607-67fa-427d-9f7e-3fa2a19ed9ad",
+                "resourcePath": "shaders\\shDefault\\shDefault.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -484,6 +500,14 @@
                 "id": "0ed99722-beb3-4f0e-a3cc-c7041838d4a5",
                 "resourcePath": "views\\ba2048a3-a831-4860-a750-8be7d2118ff5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bd7b74e7-bdcc-40d7-a630-879ef2e69a2d",
+            "Value": {
+                "id": "5d102e31-3a3e-4dfa-bc0a-a4c4f891e966",
+                "resourcePath": "objects\\oLevel_gen\\oLevel_gen.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -676,6 +700,14 @@
                 "id": "5f5a3409-e382-4cdd-895c-e1093f6293f9",
                 "resourcePath": "objects\\oCamera\\oCamera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fcd420e4-e2b3-481a-afe7-686cb8a7243d",
+            "Value": {
+                "id": "a4f32fa4-cb24-444b-9469-eae6268cb9da",
+                "resourcePath": "rooms\\rRandom_test\\rRandom_test.yy",
+                "resourceType": "GMRoom"
             }
         }
     ],

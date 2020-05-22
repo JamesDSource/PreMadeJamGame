@@ -1,0 +1,1 @@
+map = ds_grid_create(10, 10);

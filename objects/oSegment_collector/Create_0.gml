@@ -22,7 +22,7 @@ segment_rooms = [
 ];
 
 segment = 0;
-target_room = rTest;
+target_room = rRandom_test;
 global.segment_data = ds_list_create();
 
 
