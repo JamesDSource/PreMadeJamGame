@@ -2,7 +2,7 @@ var current_page = pages[page];
 var current_element = current_page[index];
 var up = keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
 var down = keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down);
-var interact = keyboard_check_pressed(ord("E")) || keyboard_check_pressed(vk_enter);
+var interact = keyboard_check_pressed(ord("Z")) || keyboard_check_pressed(vk_enter);
 
 if(up) {
 	index--;

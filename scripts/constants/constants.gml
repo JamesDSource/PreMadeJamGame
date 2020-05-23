@@ -1,3 +1,3 @@
-#macro GRAVITY 0.2
+#macro GRAVITY 0.1
 #macro VIEWWIDTH 1920/8
 #macro VIEWHEIGHT 1080/8

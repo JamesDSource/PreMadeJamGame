@@ -29,6 +29,10 @@ segment_rooms = [
 	rSegment13,
 	rSegment14,
 	rSegment16,
+	rSegment17,
+	rSegment18,
+	rSegment19,
+	rSegment20
 ];
 
 segment = 0;

@@ -15,5 +15,3 @@ follow = oPlayer;
 slow = 10;
 target_x = x;
 target_y = y;
-x_real = x;
-y_real = y;
