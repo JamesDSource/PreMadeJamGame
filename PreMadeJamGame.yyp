@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -75,6 +75,14 @@
             "Value": {
                 "id": "57f60f19-c3cd-40cd-878d-691a8871142d",
                 "resourcePath": "rooms\\rSegment7\\rSegment7.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "0d0ed4ff-3bc7-4656-a708-d5e8a35634f2",
+            "Value": {
+                "id": "1e48182b-45f9-49c9-8e8d-778ded73f522",
+                "resourcePath": "rooms\\rSegment20\\rSegment20.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "52c81244-e86b-4091-8259-d5fde893c333",
+            "Value": {
+                "id": "caf77279-dbdd-4561-b361-28dbb13e0d07",
+                "resourcePath": "rooms\\rSegment18\\rSegment18.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "531ea24e-e5df-4571-b13f-1707b1e1bd20",
             "Value": {
                 "id": "7583ad8e-dcdd-47e8-b133-9b2c7f7158fb",
@@ -492,6 +508,22 @@
                 "id": "d04ebf55-6b96-4705-86d1-eab2ee0daaf7",
                 "resourcePath": "sprites\\sSlime3\\sSlime3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7ea83103-d35f-427e-8867-eae7e944efc3",
+            "Value": {
+                "id": "03d23b46-c707-4095-8f77-376da31692cc",
+                "resourcePath": "rooms\\rSegment17\\rSegment17.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "835ce519-8204-4433-9ce7-1e1d3a6f9c38",
+            "Value": {
+                "id": "f7ca2bb6-6d4b-401d-854a-5986b0d7603c",
+                "resourcePath": "rooms\\rSegment19\\rSegment19.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
