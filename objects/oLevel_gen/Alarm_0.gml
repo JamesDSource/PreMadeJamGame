@@ -13,5 +13,5 @@ if(segment_index < ds_list_size(spaces)) {
 		instance_create_layer(spawn_x + (x_*ROOMWIDTH), spawn_y + (y_*ROOMHEIGHT), "Instances", obj);
 	}
 	segment_index++;
-	alarm[0] = 2;
+	alarm[0] = 1;
 }
