@@ -1,0 +1,1 @@
+oTransitions.mode = MODE.QUIT;

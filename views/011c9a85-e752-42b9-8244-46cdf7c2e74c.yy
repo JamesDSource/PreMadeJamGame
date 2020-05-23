@@ -13,7 +13,8 @@
         "373d14a0-ea61-4a83-bab5-3decf9869d85",
         "ad8acf32-da04-4eb8-a707-9151ed2bf9c2",
         "b8045c66-7f59-4c68-9087-54450095cb9c",
-        "e974db4b-09a1-4e69-86fc-68b6a899e680"
+        "e974db4b-09a1-4e69-86fc-68b6a899e680",
+        "175178ed-3af3-4844-b04f-089e454d4645"
     ],
     "filterType": "GMSprite",
     "folderName": "Sections",
