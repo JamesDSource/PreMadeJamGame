@@ -10,4 +10,4 @@ enum MODE {
 }
 
 mode = MODE.ENTER;
-target = rTitle;
+target = noone;

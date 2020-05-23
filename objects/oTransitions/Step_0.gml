@@ -9,10 +9,11 @@ switch(mode) {
 		percent = approach(percent, 100, spd);
 		if(percent == 100) {
 			if(mode == MODE.QUIT) game_end();	
-			else {
+			else if(target != noone){
 				mode = MODE.ENTER;
 				room_goto(target);
 			}
+			else mode = MODE.ENTER;
 		}
 		break;
 	

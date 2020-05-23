@@ -6,7 +6,7 @@ if(room == segment_rooms[segment]) {
 		var instances = array_create(0);
 		for(var ii = 0; ii < instance_count; ii++) {
 			var inst = instance_id[ii];
-			if(inst.object_index != oSegment_data) {
+			if(inst.object_index != oSegment_data && !inst.persistent) {
 				var instance_data = array_create(0)
 				instance_data[INSTANCEDATA.OBJECT] = inst.object_index; 
 				instance_data[INSTANCEDATA.X] = inst.x;

@@ -1,4 +1,6 @@
 randomize();
+#macro ROOMWIDTH 192
+#macro ROOMHEIGHT 160
 
 for(var r = 0; r < 100; r++) {
 	for(var c = 0; c < 100; c++) {
@@ -6,11 +8,11 @@ for(var r = 0; r < 100; r++) {
 	}
 }
 
-map[0, 0] = ds_list_random(global.segment_data);
+map[50, 50] = ds_list_random(global.segment_data);
 spaces = ds_list_create();
-ds_list_add(spaces, [0, 0]);
+ds_list_add(spaces, [50, 50]);
 
-segment_amount = 6;
+segment_amount = 24;
 repeat(segment_amount) {
 	// loops through the spaces and looks
 	// for an opening
@@ -85,4 +87,6 @@ repeat(segment_amount) {
 	map[space[0], space[1]] = added_segment;
 	ds_list_add(spaces, [space[0], space[1]]);
 }
-ds_list_destroy(spaces);
+
+alarm[0] = 2;
+segment_index = 0;
