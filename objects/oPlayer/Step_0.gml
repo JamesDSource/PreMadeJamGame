@@ -14,6 +14,7 @@ switch(state) {
 
 		// jump
 		if(place_meeting(x, y+1, oBlock) && keyboard_check_pressed(ord("Z"))) {
+			audio_play_sound(sdPlayer_jump, AUDIO.JUMP, false);
 			vsp = jump_force;
 			jumping = true;	
 		}
@@ -22,7 +23,10 @@ switch(state) {
 		if(jumping && vsp < 0 && !keyboard_check(ord("Z"))) vsp = 0;
 		
 		// bit
-		if(keyboard_check_pressed(ord("X")) && collision_line(x, y, x + 8*image_xscale, y, oBlock, false, true) != noone) state = PLAYERSTATE.BITE;
+		if(keyboard_check_pressed(ord("X")) && collision_line(x, y, x + 8*image_xscale, y, oBlock, false, true) != noone) {
+			audio_play_sound(sdPlayer_bite, AUDIO.BITE, false);
+			state = PLAYERSTATE.BITE;	
+		}
 		
 		event_inherited();
 		break;
@@ -33,6 +37,7 @@ switch(state) {
 		image_speed = 1;
 		if(!keyboard_check(ord("X"))) state = PLAYERSTATE.FREE;
 		if(keyboard_check_pressed(ord("Z"))) {
+			audio_play_sound(sdPlayer_jump, AUDIO.JUMP, false);
 			vsp = jump_force;
 			state = PLAYERSTATE.FREE;	
 		}

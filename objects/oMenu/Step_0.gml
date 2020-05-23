@@ -13,6 +13,8 @@ else if(down) {
 	if(index > array_length_1d(current_page)-1) index = 0;
 }
 
+if(up || down) audio_play_sound(sdMenu_scroll, AUDIO.MENU, false);
+if(interact) audio_play_sound(sdMenu_select, AUDIO.MENU, false);
 
 switch(current_element[1]) {
 	case ELEMENTTYPE.SCRIPT:

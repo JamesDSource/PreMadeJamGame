@@ -16,6 +16,8 @@ if(instance_exists(oPlayer)) {
 			hsp = lengthdir_x(knockback, angle);
 			vsp = lengthdir_y(knockback, angle);
 			
+			audio_play_sound(sdPlayer_hit, AUDIO.DAMAGE, false);
+			
 			i_frame = i_frame_max;
 		}
 	}
