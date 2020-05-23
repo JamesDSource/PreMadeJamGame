@@ -88,5 +88,27 @@ repeat(segment_amount) {
 	ds_list_add(spaces, [space[0], space[1]]);
 }
 
+for(var i = 0; i < ds_list_size(spaces); i++) {
+	var space = spaces[| i]
+	var x_ = space[0];
+	var y_ = space[1];
+	if(map[clamp(x_ + 1, 0, 99), y_] == -1) {
+		map[x_ + 1, y_] = global.fill_segment;
+		ds_list_add(spaces, [x_ + 1, y_]);	
+	}
+	if(map[clamp(x_ - 1, 0, 99), y_] == -1) {
+		map[x_ - 1, y_] = global.fill_segment;
+		ds_list_add(spaces, [x_ - 1, y_]);	
+	}
+	if(map[x_, clamp(y_ + 1, 0, 99)] == -1) {
+		map[x_, y_ + 1] = global.fill_segment;
+		ds_list_add(spaces, [x_, y_ + 1]);	
+	}
+	if(map[x_, clamp(y_ - 1, 0, 99)] == -1) {
+		map[x_, y_ - 1] = global.fill_segment;
+		ds_list_add(spaces, [x_, y_ - 1]);	
+	}
+}
+
 alarm[0] = 2;
 segment_index = 0;

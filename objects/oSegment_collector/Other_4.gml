@@ -25,8 +25,10 @@ if(room == segment_rooms[segment]) {
 		open_sides[SIDE.RIGHT] = oSegment_data.right_open;
 		data[SEGMENTDATA.OPEN] = open_sides;
 	#endregion
-
-	ds_list_add(global.segment_data, data);
+	
+	if(room = rSegment_fill) global.fill_segment = data;
+	else ds_list_add(global.segment_data, data);
+	
 	if(segment < array_length_1d(segment_rooms)-1) {
 		segment++;
 		room_goto(segment_rooms[segment]);

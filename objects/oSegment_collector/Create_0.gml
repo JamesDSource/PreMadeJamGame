@@ -16,6 +16,7 @@ enum SIDE {
 }
 
 segment_rooms = [
+	rSegment_fill,
 	rSegment1,
 	rSegment2,
 	rSegment3,
