@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "1c74f896-105b-48fd-90df-8d803e44e7d2",
+            "Value": {
+                "id": "c534c9e5-4510-473b-9bfb-615f31f5e3b8",
+                "resourcePath": "sprites\\sDog_flash\\sDog_flash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "20583740-43e5-4255-aab2-6d40f1e552e3",
             "Value": {
                 "id": "bf4a2502-cc5a-40e5-b9e1-b97dc993f3dc",
@@ -455,6 +463,14 @@
             }
         },
         {
+            "Key": "6c087134-5d8e-470c-9eeb-fb7bca08f12f",
+            "Value": {
+                "id": "c889f932-45a7-40d8-8705-42866bcfd305",
+                "resourcePath": "objects\\oEnemy\\oEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6cc813e6-44dc-45f6-a487-9c45d33f8033",
             "Value": {
                 "id": "0e2d666b-319f-45d7-a5b6-9913938b73e5",
@@ -564,6 +580,14 @@
                 "id": "03d23b46-c707-4095-8f77-376da31692cc",
                 "resourcePath": "rooms\\rSegment17\\rSegment17.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "816e3536-f8aa-4906-b172-3e6bd2e046e2",
+            "Value": {
+                "id": "35e5a0f2-fc63-4ae2-afea-81e060330f51",
+                "resourcePath": "scripts\\player_damage\\player_damage.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1101,7 +1125,8 @@
         "31daf275-cc75-4a55-9a24-fa92fa9c465c",
         "233b6cde-56bc-4bc6-ada4-dd7b4163dbc8",
         "c5bfffcc-630c-4369-b3af-7deb9fd62d8c",
-        "e0657b77-9bc7-490b-a65d-367a79882032"
+        "e0657b77-9bc7-490b-a65d-367a79882032",
+        "816e3536-f8aa-4906-b172-3e6bd2e046e2"
     ],
     "tutorial": ""
 }

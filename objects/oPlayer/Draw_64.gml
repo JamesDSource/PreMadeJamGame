@@ -1,7 +1,7 @@
 /// @description Draw Health
 
-var pHealthMax = global.playerHealthMax;
-var pHealth = global.playerHealth;
+var pHealthMax = global.player_health_max;
+var pHealth = global.player_health;
 
 for (var i = 1; i <= pHealthMax; i++)
 {
