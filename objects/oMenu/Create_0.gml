@@ -14,5 +14,9 @@ pages[PAGE.MAIN] = [
 	["Quit", ELEMENTTYPE.SCRIPT, quit_game]
 ]
 
+pages[PAGE.SETTINGS] = [
+	["Back", ELEMENTTYPE.TRANSFER, PAGE.MAIN]
+]
+
 page = PAGE.MAIN;
 index = 0;

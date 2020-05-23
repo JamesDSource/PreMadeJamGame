@@ -8,7 +8,18 @@ for(var r = 0; r < 100; r++) {
 	}
 }
 
-map[50, 50] = ds_list_random(global.segment_data);
+switch(level) {
+	case 1:
+		level_data = global.level_one_segment_data;
+		break;
+	
+	case 2:
+		level_data = global.level_two_segment_data;
+		break;
+	
+}
+
+map[50, 50] = ds_list_random(level_data);
 spaces = ds_list_create();
 ds_list_add(spaces, [50, 50]);
 
@@ -78,7 +89,7 @@ repeat(segment_amount) {
 	// find a random segment with the required open side
 	var added_segment = -1;
 	while(added_segment == -1) {
-		var test_segment = ds_list_random(global.segment_data);
+		var test_segment = ds_list_random(level_data);
 		var test_openings = test_segment[SEGMENTDATA.OPEN];
 		if(test_openings[requirement]) added_segment = test_segment;
 	}

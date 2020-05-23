@@ -31,7 +31,7 @@ switch(state) {
 		vsp = 0;
 		hsp = 0;
 		image_speed = 1;
-		if(keyboard_check_released(ord("X"))) state = PLAYERSTATE.FREE;
+		if(!keyboard_check(ord("X"))) state = PLAYERSTATE.FREE;
 		if(keyboard_check_pressed(ord("Z"))) {
 			vsp = jump_force;
 			state = PLAYERSTATE.FREE;	

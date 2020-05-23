@@ -40,7 +40,8 @@ segment_rooms = [
 
 segment = 0;
 target_room = rTitle;
-global.segment_data = ds_list_create();
+global.level_one_segment_data = ds_list_create();
+global.level_two_segment_data = ds_list_create();
 
 
 room_goto(segment_rooms[segment]);
