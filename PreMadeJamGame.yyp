@@ -1151,6 +1151,14 @@
             }
         },
         {
+            "Key": "9a94e931-e24d-411e-84fe-3bdd29479b2c",
+            "Value": {
+                "id": "04f7d7db-359d-432d-a86f-2702e8a5b4f6",
+                "resourcePath": "objects\\oBoomerang\\oBoomerang.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9b22c2e1-8aed-46c1-858f-67173af0596a",
             "Value": {
                 "id": "7aa7dac7-1ac5-4888-bf51-60adaef815aa",
