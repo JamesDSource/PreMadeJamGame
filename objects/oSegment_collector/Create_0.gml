@@ -15,28 +15,18 @@ enum SIDE {
 	RIGHT
 }
 
-segment_rooms = [
-	rSegment_fill,
-	rSegment1,
-	rSegment2,
-	rSegment3,
-	rSegment4,
-	rSegment5,
-	rSegment6,
-	rSegment7,
-	rSegment8,
-	rSegment9,
-	rSegment10,
-	rSegment11,
-	rSegment12,
-	rSegment13,
-	rSegment14,
-	rSegment16,
-	rSegment17,
-	rSegment18,
-	rSegment19,
-	rSegment20
-];
+segment_rooms = [rSegment_fill];
+var done = false;
+var i = 1;
+while(!done) {
+	var rm = asset_get_index("rSegment" + string(i));
+	if(rm == -1) done = true;
+	else {
+		segment_rooms[array_length_1d(segment_rooms)] = rm;
+		i++;	
+	}
+}
+
 
 segment = 0;
 target_room = rTitle;

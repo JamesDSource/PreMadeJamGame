@@ -11,3 +11,6 @@ if(place_meeting(x, y + vsp, oBlock)) {
 
 x += hsp;
 y += vsp;
+
+x = round(x);
+y = round(y);

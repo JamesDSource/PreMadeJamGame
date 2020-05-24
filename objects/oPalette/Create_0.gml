@@ -4,7 +4,9 @@ enum PALETTE {
 	NES,
 	DIEFARBEN,
 	STARSANDSTRIPES,
-	NOIR
+	NOIR,
+	WELL,
+	TAFFY
 }
 
 global.pal_black = [0.0, 0.0, 0.0];
