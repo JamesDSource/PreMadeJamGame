@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "1dc815ef-287a-453f-8f0c-721f09643e19",
+            "Value": {
+                "id": "620cddf9-7567-4db1-8cae-e14e75ec127b",
+                "resourcePath": "objects\\oBubble_projectile\\oBubble_projectile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "20583740-43e5-4255-aab2-6d40f1e552e3",
             "Value": {
                 "id": "bf4a2502-cc5a-40e5-b9e1-b97dc993f3dc",
