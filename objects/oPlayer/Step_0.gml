@@ -66,7 +66,7 @@ switch(state) {
 		}
 		
 		if(image_xscale == 0 && image_yscale == 0) {
-			room_goto_next();
+			oTransitions.mode = MODE.NEXT;
 		}
 		break;
 }
