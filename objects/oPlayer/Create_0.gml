@@ -6,7 +6,6 @@ jump_force = -3;
 jumping = false;
 
 i_frame = 0;
-i_frame_max = 120;
 
 enum PLAYERSTATE {
 	FREE,	

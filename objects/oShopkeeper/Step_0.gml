@@ -22,6 +22,7 @@ if(instance_exists(oPlayer) && oPlayer.state = PLAYERSTATE.SHOPPING) {
 					global.player_health_max++;
 					break;
 				case "I-Frame Upgrade":
+					global.i_frames += 20;
 					break;
 				
 			}
