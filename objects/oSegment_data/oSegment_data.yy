@@ -24,6 +24,20 @@
     "physicsStartAwake": true,
     "properties": [
         {
+            "id": "724f417f-1fe3-43b8-a30d-3567dd8e75de",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "portal",
+            "varType": 3
+        },
+        {
             "id": "1b2b8cf2-dd74-4b7c-a5b6-10d14179d5bc",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

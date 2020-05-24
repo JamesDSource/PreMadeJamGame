@@ -66,8 +66,7 @@ switch(state) {
 		}
 		
 		if(image_xscale == 0 && image_yscale == 0) {
-			oTransitions.target = portal.target;	
-			oTransitions.mode = MODE.CHANGE;
+			room_goto_next();
 		}
 		break;
 }
