@@ -24,7 +24,7 @@ if(instance_exists(oPlayer)) {
 			
 			audio_play_sound(sdPlayer_hit, AUDIO.DAMAGE, false);
 			
-			i_frame = i_frame_max;
+			i_frame = global.i_frames;
 		}
 	}
 }

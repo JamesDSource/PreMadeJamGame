@@ -15,7 +15,15 @@ enum SIDE {
 	RIGHT
 }
 
-segment_rooms = [rSegment_fill, rSegment_portal, rSegment_portal2];
+segment_rooms = [
+	rSegment_fill, 
+	rSegment_portal, 
+	rSegment_portal2, 
+	rSegment_portal3,
+	rSegment_shop,
+	rSegment_shop2,
+	rSegment_shop3
+];
 for(var r = 1; r <= 3; r++) {
 	for(var c = 1; c <= 25; c++) {
 		var rm = asset_get_index("rSegment" + string(r) + "_" + string(c));

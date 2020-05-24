@@ -38,6 +38,20 @@
             "varType": 3
         },
         {
+            "id": "71ca4578-47c5-4764-b388-3aa6a252d53b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "shop",
+            "varType": 3
+        },
+        {
             "id": "1b2b8cf2-dd74-4b7c-a5b6-10d14179d5bc",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
