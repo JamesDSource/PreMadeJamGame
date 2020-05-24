@@ -938,7 +938,7 @@
             "Key": "7ac16f6a-564c-4dff-b3f8-55f15e881adf",
             "Value": {
                 "id": "555ea370-d07c-41de-991c-bb28db7ce8aa",
-                "resourcePath": "objects\\oSlime\\oSlime.yy",
+                "resourcePath": "objects\\oSlime_fly\\oSlime_fly.yy",
                 "resourceType": "GMObject"
             }
         },
