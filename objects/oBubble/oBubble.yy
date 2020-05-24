@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "oBubble",
     "eventList": [
-        
+        {
+            "id": "34cc1f49-de23-42b4-b2ca-61579c00e3e5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "a70da7c1-44f4-44e0-ba1b-31cf204ae782"
+        },
+        {
+            "id": "1b0db3a3-0f52-442e-a547-473c64ad7fa0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "a70da7c1-44f4-44e0-ba1b-31cf204ae782"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

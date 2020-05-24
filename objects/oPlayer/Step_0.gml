@@ -42,6 +42,16 @@ switch(state) {
 			state = PLAYERSTATE.FREE;	
 		}
 		break;
+		
+	case PLAYERSTATE.BUBBLE:
+		if(bubble != noone) {
+			x = bubble.x;	
+			y = bubble.y;
+			vsp = 0;
+			hsp = 0;
+		}
+		else state = PLAYERSTATE.FREE;
+		break;
 }
 
 if (i_frame > 0)

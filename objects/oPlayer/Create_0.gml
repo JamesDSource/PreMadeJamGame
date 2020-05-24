@@ -11,10 +11,13 @@ i_frame_max = 120;
 
 enum PLAYERSTATE {
 	FREE,	
-	BITE
+	BITE,
+	BUBBLE
 }
 
 state = PLAYERSTATE.FREE;
 
 flash_t = 0;
 flash = false;
+
+bubble = noone;
