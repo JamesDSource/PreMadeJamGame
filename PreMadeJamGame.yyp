@@ -850,7 +850,7 @@
             "Key": "9d4940a4-927a-49cd-8540-2a974c72b389",
             "Value": {
                 "id": "e1c663d0-184d-48d8-871d-68dfa7fe8d00",
-                "resourcePath": "rooms\\rSegment_portal1\\rSegment_portal1.yy",
+                "resourcePath": "rooms\\rSegment_portal\\rSegment_portal.yy",
                 "resourceType": "GMRoom"
             }
         },
