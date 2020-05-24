@@ -24,4 +24,3 @@ if(state == PLAYERSTATE.DEAD) {
 }
 
 shader_reset();
-

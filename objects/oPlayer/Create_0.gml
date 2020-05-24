@@ -3,7 +3,9 @@ acc = 0.2;
 jump_force = -3;
 jumping = false;
 
-global.player_health_max = 5;
+global.gems = 0;
+global.player_health_max = 3;
+global.player_health = 3;
 i_frame = 0;
 i_frame_max = 120;
 
@@ -22,5 +24,3 @@ flash = false;
 
 bubble = noone;
 portal = noone;
-
-load();

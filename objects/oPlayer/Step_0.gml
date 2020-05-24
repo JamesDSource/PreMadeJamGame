@@ -66,7 +66,7 @@ switch(state) {
 		}
 		
 		if(image_xscale == 0 && image_yscale == 0) {
-			oTransitions.mode = MODE.NEXT;
+			room_goto_next();
 		}
 		break;
 	case PLAYERSTATE.DEAD:
