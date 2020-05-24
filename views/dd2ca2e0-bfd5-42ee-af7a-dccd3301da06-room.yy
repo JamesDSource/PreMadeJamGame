@@ -5,8 +5,12 @@
     "name": "dd2ca2e0-bfd5-42ee-af7a-dccd3301da06-room",
     "children": [
         "3cb2081e-0304-406d-ad65-cf521f7b29c9",
+        "17db41b6-0005-44fc-b061-ff4076e1c345",
+        "47dae431-a2b5-407d-8e91-39544aa4040c",
+        "bec8bf3e-14ac-4e43-ae71-00416fda868d",
         "9d4940a4-927a-49cd-8540-2a974c72b389",
         "84a48bfb-aaf9-4cdc-b024-ea120267bb8a",
+        "abdaed8a-eff2-4623-a0d7-aa3d3080e4f1",
         "3df2368f-0c13-4aeb-a8e9-0517192dd338",
         "6cc813e6-44dc-45f6-a487-9c45d33f8033",
         "39c324d0-386f-440e-8625-e7dd6407df5f",
