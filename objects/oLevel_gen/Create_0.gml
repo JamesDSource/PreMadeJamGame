@@ -147,6 +147,10 @@ repeat(segment_amount) {
 	else break;
 }
 
+// shop room
+var shop_space = ds_list_random(spaces);
+map[shop_space[0], shop_space[1]] = global.shop_segment[level];
+
 // portal room
 var portal_space = ds_list_random(spaces);
 map[portal_space[0], portal_space[1]] = global.portal_segment[level];
