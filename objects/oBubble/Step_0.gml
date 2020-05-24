@@ -11,6 +11,7 @@ if(place_meeting(x, y, oPlayer)) {
 		x = xstart;
 		y = ystart;
 		alarm[0] = room_speed;
+		if(permadeath) instance_destroy();
 	}
 	y--;
 }
