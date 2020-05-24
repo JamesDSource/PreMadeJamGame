@@ -594,7 +594,7 @@
             "Key": "7ae3fb5e-a4f1-450f-ba6a-96c31c2ffe9b",
             "Value": {
                 "id": "8f46b607-67fa-427d-9f7e-3fa2a19ed9ad",
-                "resourcePath": "shaders\\shDefault\\shDefault.yy",
+                "resourcePath": "shaders\\shPalette\\shPalette.yy",
                 "resourceType": "GMShader"
             }
         },
@@ -612,6 +612,14 @@
                 "id": "03d23b46-c707-4095-8f77-376da31692cc",
                 "resourcePath": "rooms\\rSegment17\\rSegment17.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "7f4384ce-04a5-4a3d-b4cf-9674dfeba975",
+            "Value": {
+                "id": "874d3a7a-1cea-4ace-af72-f196723859dc",
+                "resourcePath": "scripts\\set_palette\\set_palette.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -748,6 +756,14 @@
                 "id": "612f6dce-be24-489d-aace-2c353f5dc099",
                 "resourcePath": "sprites\\sBottom_left_curve\\sBottom_left_curve.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9ebb23c0-3158-4770-ba02-e531e9b50d25",
+            "Value": {
+                "id": "df8ed598-0d04-4668-9101-18c3ee43325b",
+                "resourcePath": "scripts\\draw_text_shadow\\draw_text_shadow.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1208,7 +1224,9 @@
         "e0657b77-9bc7-490b-a65d-367a79882032",
         "97e2e306-c358-431d-aadc-1ca248c78041",
         "2694e03b-f375-4e2d-a0dd-048b0c82760b",
-        "816e3536-f8aa-4906-b172-3e6bd2e046e2"
+        "816e3536-f8aa-4906-b172-3e6bd2e046e2",
+        "7f4384ce-04a5-4a3d-b4cf-9674dfeba975",
+        "9ebb23c0-3158-4770-ba02-e531e9b50d25"
     ],
     "tutorial": ""
 }
