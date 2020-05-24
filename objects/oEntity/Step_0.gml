@@ -1,4 +1,5 @@
 push_out(oBlock);
+
 var h_inst = instance_place(x + hsp, y, oBlock);
 if(h_inst != noone && h_inst.object_index != oPlatform) {
 	while(!place_meeting(x + sign(hsp), y, oBlock)) x += sign(hsp);
@@ -15,5 +16,3 @@ y += vsp;
 
 x = round(x);
 y = round(y);
-
-push_out(oBlock);

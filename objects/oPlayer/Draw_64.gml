@@ -6,7 +6,7 @@ var pHealth = global.player_health;
 for (var i = 1; i <= pHealthMax; i++)
 {
 	var separation = sprite_get_width(sHeart) - 1;
-	draw_sprite(sHeart, (i > pHealth), (separation *i) - 13 - sprite_get_xoffset(sHeart) + sprite_get_width(sHeart), 2 - sprite_get_yoffset(sHeart) + sprite_get_height(sHeart));
+	draw_sprite(sHeart, (i > pHealth), (separation *i) - 13, 2);
 }
 
 
