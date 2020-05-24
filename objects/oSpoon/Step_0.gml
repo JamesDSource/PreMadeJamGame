@@ -14,6 +14,6 @@ if(held) {
 	if(thrust_cooldown_timer > 0) thrust_cooldown_timer--;
 
 	var enemy_inst = instance_place(x, y, oEnemy);
-	if(enemy_inst != noone && thrust_timer > 0) instance_destroy(enemy_inst); 
+	if(enemy_inst != noone && thrust_timer > 0) attack_enemy(enemy_inst); 
 }
 event_inherited();
