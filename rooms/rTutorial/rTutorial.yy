@@ -7,7 +7,6 @@
     "inheritCreationOrder": true,
     "inheritLayers": true,
     "instanceCreationOrderIDs": [
-        "84c2e5dc-2369-46b2-8831-d79166f38a64",
         "a73c7dfc-5c3a-45e7-83b5-1854bde39e03",
         "82170fa0-45cf-4885-8817-ef6808150ce2",
         "29766f9f-40a5-4de2-aa24-a3e4ce1466c7",
@@ -116,6 +115,8 @@
         "a2e6474d-b672-420d-ae58-0ec8e177675b",
         "de775ce0-eaef-438b-b442-1c15667b7a62",
         "53e4bf4f-8b3b-4817-a8a0-2ec427252455",
+        "84c2e5dc-2369-46b2-8831-d79166f38a64",
+        "8a117e3c-3150-4ab2-964d-45827bb3fabf",
         "49ead003-ae02-416b-9b88-ee2fb42f6224",
         "bf50384b-51b8-4a6e-b4e7-0b8b23197317",
         "838a9784-44c0-41b3-81ae-fc7667294753",
@@ -224,8 +225,7 @@
         "aaee13f2-7aa3-4bb5-a664-707c3dd1f62c",
         "b1ccca9c-d670-4be7-9c19-0dc99bfe7522",
         "443a85a6-b3e5-4f98-9cef-799a1ced3afc",
-        "777ebb20-135b-4e1c-b74a-1a35648ad4e4",
-        "8a117e3c-3150-4ab2-964d-45827bb3fabf"
+        "777ebb20-135b-4e1c-b74a-1a35648ad4e4"
     ],
     "IsDnD": false,
     "layers": [
