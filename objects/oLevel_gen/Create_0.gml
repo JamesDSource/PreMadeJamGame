@@ -23,7 +23,6 @@ map[50, 50] = ds_list_random(level_data);
 spaces = ds_list_create();
 ds_list_add(spaces, [50, 50]);
 
-segment_amount = 24;
 repeat(segment_amount) {
 	// loops through the spaces and looks
 	// for an opening

@@ -65,6 +65,20 @@
             "value": "1",
             "varName": "level",
             "varType": 1
+        },
+        {
+            "id": "7744e59a-0355-4c28-90f7-8157e6e2ef5a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "16",
+            "varName": "segment_amount",
+            "varType": 1
         }
     ],
     "solid": false,
