@@ -12,7 +12,7 @@ uniform vec3 pal_ltgray;
 void main() {
 	vec4 base_col = v_vColour * texture2D( gm_BaseTexture, v_vTexcoord );
 	vec3 mod_col = base_col.rgb;
-	float value = (base_col.r + base_col.g + base_col.b)/ 3.0;
+	float value = base_col.r;
 	
 	// Black
 	if(value == 0.0) {
@@ -25,12 +25,12 @@ void main() {
 	}
 
 	// Dark Gray
-	if(abs(value - (100.0/255.0)) < 0.001) {
+	if(value == (100.0/255.0)) {
 		mod_col = pal_dkgray;
 	}
 	
 	// Light Gray
-	if(abs(value - (200.0/255.0)) < 0.001) {
+	if(value == (200.0/255.0)) {
 		mod_col = pal_ltgray;
 	}
     gl_FragColor = vec4(mod_col, base_col.a);

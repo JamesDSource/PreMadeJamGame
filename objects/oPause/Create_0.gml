@@ -6,10 +6,10 @@ pages[PAGE.MAIN] = [
 ]
 
 paused = false;
-global.sPause = noone;
+sPause = noone;
 
-surf_w = surface_get_width(application_surface);
-surf_h = surface_get_height(application_surface);
+surf_w = surface_get_width(application_surface)
+surf_h = surface_get_height(application_surface)
 
 pauseables = [
 	oEntity,
