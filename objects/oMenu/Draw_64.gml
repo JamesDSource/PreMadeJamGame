@@ -10,7 +10,7 @@ for(var i = 0; i < array_length_1d(current_page); i++) {
 	draw_set_halign(fa_right);
 	
 	var current_element = current_page[i];
-	var seperation = 20;
+	var seperation = 15;
 	
 	var selected = false;
 	if(index == i) {
