@@ -2,10 +2,9 @@ application_surface_draw_enable(false);
 enum PALETTE {
 	SCRUBBED,
 	NES,
-	DIEFARBEN
+	DIEFARBEN,
+	STARSANDSTRIPES
 }
-
-global.palette = PALETTE.NES;
 
 global.pal_black = [0.0, 0.0, 0.0];
 global.pal_white = [0.0, 0.0, 0.0];

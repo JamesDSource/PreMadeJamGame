@@ -17,5 +17,11 @@ switch(global.palette) {
 		global.pal_dkgray = [170/255, 0, 0]
 		global.pal_ltgray = [0.0, 170/255, 0];
 		break;
+	case PALETTE.STARSANDSTRIPES:
+		global.pal_black = [1, 0, 0];
+		global.pal_white = [1, 1, 1];
+		global.pal_dkgray = [0, 0, 1]
+		global.pal_ltgray = [0.4, 0.4, 1];
+		break;
 	
 }
