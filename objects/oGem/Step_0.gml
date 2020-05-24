@@ -1,1 +1,1 @@
-y = ystart + wave(-3, 3, 2, 0);
+y = round(ystart + wave(-3, 3, 2, 0));

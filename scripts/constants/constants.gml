@@ -1,11 +1,12 @@
 #macro GRAVITY 0.1
-#macro VIEWWIDTH 1920/8
-#macro VIEWHEIGHT 1080/8
+#macro VIEWWIDTH 240
+#macro VIEWHEIGHT 135
 
 enum AUDIO {
 	MENU,
 	JUMP,
 	BITE,
+	PICKUP,
 	DAMAGE
 }
 
