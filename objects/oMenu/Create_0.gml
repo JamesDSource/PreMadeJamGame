@@ -5,7 +5,8 @@ enum PAGE {
 
 enum ELEMENTTYPE {
 	TRANSFER,
-	SCRIPT
+	SCRIPT,
+	SLIDER
 }
 
 pages[PAGE.MAIN] = [
@@ -15,13 +16,8 @@ pages[PAGE.MAIN] = [
 ]
 
 pages[PAGE.SETTINGS] = [
-<<<<<<< HEAD
-	["Palette", ELEMENTTYPE.SLIDER, "palette", ["Scrubbed", "NES", "Die Farben", "50 Stars"], [PALETTE.SCRUBBED, PALETTE.NES, PALETTE.DIEFARBEN, PALETTE.STARSANDSTRIPES]],
-	["Back", ELEMENTTYPE.SCRIPT, settings_back]
-=======
+	["Palette", ELEMENTTYPE.SLIDER, "palette", ["Scrubbed", "NES", "Die Farben"], [PALETTE.SCRUBBED, PALETTE.NES, PALETTE.DIEFARBEN]],
 	["Back", ELEMENTTYPE.TRANSFER, PAGE.MAIN]
->>>>>>> parent of 7084256... commit_5/23/2020
 ]
-
 page = PAGE.MAIN;
 index = 0;
