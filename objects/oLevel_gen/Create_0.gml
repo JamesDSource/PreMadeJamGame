@@ -16,6 +16,10 @@ switch(level) {
 	case 2:
 		level_data = global.level_two_segment_data;
 		break;
+		
+	case 3:
+		level_data = global.level_three_segment_data;
+		break;
 	
 }
 
