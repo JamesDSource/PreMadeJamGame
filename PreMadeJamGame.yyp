@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "5d822cc1-18a9-4ed9-bec1-fbf9d1742765",
+            "Value": {
+                "id": "d05a3b89-0f4b-4d84-9088-3023c295bb87",
+                "resourcePath": "scripts\\attack_enemy\\attack_enemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5dc96665-edb7-4a6e-8628-4f06ee6f5217",
             "Value": {
                 "id": "b499d2f8-03fb-40ce-979b-77737db04214",
@@ -1977,6 +1985,7 @@
         "9ebb23c0-3158-4770-ba02-e531e9b50d25",
         "3d9b7e8c-01ba-42ae-9aba-675ef2199550",
         "24132235-552e-4dc6-8e04-ada973a04085",
+        "5d822cc1-18a9-4ed9-bec1-fbf9d1742765",
         "6bff8f18-e98d-49df-90b2-e48c7cedcb64",
         "ad8b784a-e092-4a5f-900c-f84d8ec0ccce",
         "47b14ac0-a376-4581-b229-9318a7b76a0d",
