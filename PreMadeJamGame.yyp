@@ -1247,14 +1247,6 @@
             }
         },
         {
-            "Key": "a17d0f94-2ffe-4f20-8951-d0680eb28902",
-            "Value": {
-                "id": "3cf706b3-ef05-4e85-900e-d78dbf9b7482",
-                "resourcePath": "objects\\oGrid\\oGrid.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "a492364d-5a24-4162-bc6b-891775ce8141",
             "Value": {
                 "id": "9b0b521a-9a37-43ed-a4dc-921812a39454",
