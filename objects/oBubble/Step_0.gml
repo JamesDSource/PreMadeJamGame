@@ -4,6 +4,14 @@ if(place_meeting(x, y, oPlayer)) {
 		oPlayer.bubble = id;	
 	}
 	
+	var inst =  instance_place(x, y, oBlock);
+	if(inst != noone && inst.object_index != oPlatform) {
+		sprite_index = noone;
+		oPlayer.bubble = noone;
+		x = xstart;
+		y = ystart;
+		alarm[0] = room_speed;
+	}
 	y--;
 }
 x = round(x);
