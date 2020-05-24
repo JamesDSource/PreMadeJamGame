@@ -935,6 +935,14 @@
             }
         },
         {
+            "Key": "de35344c-6b44-4e97-ba55-6fedf4c532d4",
+            "Value": {
+                "id": "0b7fe4ec-565d-47d5-b11a-05358ca84924",
+                "resourcePath": "sprites\\sBrick_10x12_2\\sBrick_10x12_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e0657b77-9bc7-490b-a65d-367a79882032",
             "Value": {
                 "id": "72e84228-b94c-40e0-b8ba-4d0999ecf72a",
