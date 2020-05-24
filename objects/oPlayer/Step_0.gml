@@ -45,6 +45,9 @@ switch(state) {
 		if(portal != noone) state = PLAYERSTATE.PORTAL;
 		
 		event_inherited();
+		
+		// shopkeepers
+		if(keyboard_check_pressed(vk_shift) && place_meeting(x, y, oShopkeeper)) state = PLAYERSTATE.SHOPPING;
 		break;
 		
 	case PLAYERSTATE.BITE:
@@ -83,6 +86,16 @@ switch(state) {
 			oTransitions.mode = MODE.NEXT;
 		}
 		break;
+		
+	case PLAYERSTATE.SHOPPING:
+		image_speed = 0;
+		image_index = 0;
+		hsp = approach(hsp, 0, acc);
+		vsp += GRAVITY;
+		if(keyboard_check_pressed(vk_shift)) state = PLAYERSTATE.FREE;
+		event_inherited();
+		break;
+		
 	case PLAYERSTATE.DEAD:
 		vsp += GRAVITY;
 		hsp = approach(hsp, 0, acc);
@@ -96,4 +109,4 @@ switch(state) {
 if (i_frame > 0)
 	i_frame--;
 	
-if(mouse_check_button_pressed(mb_left)) instance_create_layer(round(mouse_x), round(mouse_y), "Instances", oBoomerang)
+if(mouse_check_button_pressed(mb_left)) instance_create_layer(round(mouse_x), round(mouse_y), "Instances", oShopkeeper);
