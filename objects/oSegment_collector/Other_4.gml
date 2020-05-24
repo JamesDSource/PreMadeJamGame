@@ -27,7 +27,12 @@ if(room == segment_rooms[segment]) {
 	#endregion
 	
 	if(room = rSegment_fill) global.fill_segment = data;
-	else if(room = rSegment_portal) global.portal_segment = data;
+	else if(oSegment_data.portal) {
+		var portal_index = 0;
+		if(oSegment_data.level_one) portal_index = 1;
+		if(oSegment_data.level_two) portal_index = 2;
+		global.portal_segment[portal_index] = data;
+	}
 	else {
 		if(oSegment_data.level_one) ds_list_add(global.level_one_segment_data, data);	
 		if(oSegment_data.level_two) ds_list_add(global.level_two_segment_data, data);	

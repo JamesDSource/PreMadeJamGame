@@ -100,7 +100,7 @@ repeat(segment_amount) {
 
 // portal room
 var portal_space = ds_list_random(spaces);
-map[portal_space[0], portal_space[1]] = global.portal_segment;
+map[portal_space[0], portal_space[1]] = global.portal_segment[level];
 
 // filling the edges
 for(var i = 0; i < ds_list_size(spaces); i++) {

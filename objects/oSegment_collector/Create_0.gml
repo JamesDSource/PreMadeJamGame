@@ -15,7 +15,7 @@ enum SIDE {
 	RIGHT
 }
 
-segment_rooms = [rSegment_fill, rSegment_portal];
+segment_rooms = [rSegment_fill, rSegment_portal, rSegment_portal2];
 var done = false;
 var i = 1;
 while(!done) {
