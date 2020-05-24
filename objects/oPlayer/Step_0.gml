@@ -83,7 +83,13 @@ switch(state) {
 		}
 		
 		if(image_xscale == 0 && image_yscale == 0) {
-			oTransitions.mode = MODE.NEXT;
+			if(portal.target == noone){
+				oTransitions.mode = MODE.NEXT;
+			}
+			else{
+				oTransitions.target = portal.target;
+				oTransitions.mode = MODE.CHANGE;
+			}
 		}
 		break;
 		

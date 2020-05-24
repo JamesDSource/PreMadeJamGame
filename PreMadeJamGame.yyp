@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "392c3a63-abca-4b44-8213-e48d01e56464",
+            "Value": {
+                "id": "dd0d6e1a-450b-4824-af9d-1b9081641ded",
+                "resourcePath": "objects\\oMessage\\oMessage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3986542a-60a0-4072-8f79-ea5709f8f5e1",
             "Value": {
                 "id": "af5ee4ac-f581-46ee-8c1d-f40d19de41bd",
@@ -612,6 +620,14 @@
                 "id": "7583ad8e-dcdd-47e8-b133-9b2c7f7158fb",
                 "resourcePath": "views\\531ea24e-e5df-4571-b13f-1707b1e1bd20.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "544422a2-53fc-45a0-b2c5-8c665d756d0e",
+            "Value": {
+                "id": "bf4360f8-238f-458c-a590-253138e25bd5",
+                "resourcePath": "scripts\\start_tutorial\\start_tutorial.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1047,14 +1063,6 @@
             }
         },
         {
-            "Key": "89ff5f48-7e8d-4193-a079-cb9d1796612a",
-            "Value": {
-                "id": "8639164e-4f44-4d17-ab72-616c7a8c2c32",
-                "resourcePath": "rooms\\rTutorial\\rTutorial.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "8a396881-9f22-4545-bd4c-d3dd7f612f5e",
             "Value": {
                 "id": "33e64474-bb27-45b6-b724-114e9aec5d5e",
@@ -1115,6 +1123,14 @@
             "Value": {
                 "id": "6c53070c-51b0-4303-a38d-9fabe7e94d2c",
                 "resourcePath": "rooms\\rSegment3_3\\rSegment3_3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8ff3d541-661e-4a7d-90ad-85adb9ca4051",
+            "Value": {
+                "id": "d9fad68e-f126-47ee-836f-58356eaae898",
+                "resourcePath": "rooms\\rTutorial\\rTutorial.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1934,6 +1950,7 @@
         "47b14ac0-a376-4581-b229-9318a7b76a0d",
         "5dc96665-edb7-4a6e-8628-4f06ee6f5217",
         "c5bfffcc-630c-4369-b3af-7deb9fd62d8c",
+        "544422a2-53fc-45a0-b2c5-8c665d756d0e",
         "e0657b77-9bc7-490b-a65d-367a79882032",
         "97e2e306-c358-431d-aadc-1ca248c78041",
         "2694e03b-f375-4e2d-a0dd-048b0c82760b",

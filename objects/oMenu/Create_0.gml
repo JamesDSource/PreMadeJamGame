@@ -11,6 +11,7 @@ enum ELEMENTTYPE {
 
 pages[PAGE.MAIN] = [
 	["Start Game", ELEMENTTYPE.SCRIPT, start_game],
+	["Tutorial", ELEMENTTYPE.SCRIPT, start_tutorial],
 	["Settings", ELEMENTTYPE.TRANSFER, PAGE.SETTINGS],
 	["Quit", ELEMENTTYPE.SCRIPT, quit_game]
 ]
