@@ -1,6 +1,6 @@
 instance_activate_all();
 
-var block_dist = 350;
+var block_dist = 500;
 var entity_dist = 300;
 
 with(oBlock) {

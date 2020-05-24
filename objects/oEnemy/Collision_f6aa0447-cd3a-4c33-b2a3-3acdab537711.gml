@@ -1,1 +1,1 @@
-player_damage(1, knockback + hsp + vsp);
+if(touch_damage) player_damage(1, knockback + hsp + vsp);

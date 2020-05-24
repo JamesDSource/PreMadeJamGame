@@ -23,8 +23,21 @@ switch(state) {
 		
 		if(jumping && vsp < 0 && !keyboard_check(ord("Z"))) vsp = 0;
 		
-		// bit
-		if(keyboard_check_pressed(ord("X")) && collision_line(x, y, x + 8*image_xscale, y, oBlock, false, true) != noone) {
+		// pick up items
+		if(keyboard_check_pressed(ord("C"))) {
+			if(item == noone) {
+				var items = ds_list_create();
+				collision_circle_list(x, y, 10, oItem, false, true, items, true);
+				if(ds_list_size(items) > 0) {
+					item = items[| 0];
+					ds_list_destroy(items);
+				}
+			}
+			else item = noone;	
+		}
+		
+		// bite
+		if(keyboard_check_pressed(ord("X")) && item == noone && collision_line(x, y, x + 8*image_xscale, y, oBlock, false, true) != noone) {
 			audio_play_sound(sdPlayer_bite, AUDIO.BITE, false);
 			state = PLAYERSTATE.BITE;	
 		}
@@ -32,6 +45,9 @@ switch(state) {
 		if(portal != noone) state = PLAYERSTATE.PORTAL;
 		
 		event_inherited();
+		
+		// shopkeepers
+		if(keyboard_check_pressed(vk_shift) && place_meeting(x, y, oShopkeeper)) state = PLAYERSTATE.SHOPPING;
 		break;
 		
 	case PLAYERSTATE.BITE:
@@ -57,6 +73,7 @@ switch(state) {
 		break;
 		
 	case PLAYERSTATE.PORTAL:
+		item = noone;
 		x = approach(x, portal.x, 3);
 		y = approach(y, portal.y, 3);
 		image_angle += 10;
@@ -69,6 +86,16 @@ switch(state) {
 			oTransitions.mode = MODE.NEXT;
 		}
 		break;
+		
+	case PLAYERSTATE.SHOPPING:
+		image_speed = 0;
+		image_index = 0;
+		hsp = approach(hsp, 0, acc);
+		vsp += GRAVITY;
+		if(keyboard_check_pressed(vk_shift)) state = PLAYERSTATE.FREE;
+		event_inherited();
+		break;
+		
 	case PLAYERSTATE.DEAD:
 		vsp += GRAVITY;
 		hsp = approach(hsp, 0, acc);
@@ -82,4 +109,4 @@ switch(state) {
 if (i_frame > 0)
 	i_frame--;
 	
-//if(mouse_check_button_pressed(mb_left)) instance_create_layer(mouse_x, mouse_y, "Instances", oPlatform)
+if(mouse_check_button_pressed(mb_left)) instance_create_layer(round(mouse_x), round(mouse_y), "Instances", oShopkeeper);
