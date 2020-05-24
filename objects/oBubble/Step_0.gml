@@ -14,3 +14,5 @@ if(place_meeting(x, y, oPlayer)) {
 		alarm[0] = room_speed;
 	}
 }
+x = round(x);
+y = round(y);
