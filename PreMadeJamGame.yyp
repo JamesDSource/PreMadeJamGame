@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "240f4162-59e0-42d9-ac6e-2c3951e24254",
+            "Value": {
+                "id": "c6074346-3ff4-4fd6-8f61-f5738efc127b",
+                "resourcePath": "rooms\\rSegment30\\rSegment30.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2649f208-6f1c-479e-8578-61ffad673e9e",
             "Value": {
                 "id": "985e3174-bb6e-4c1c-94b1-ae46420619f2",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "300efbf3-af9e-40da-bba6-f17235a343e6",
+            "Value": {
+                "id": "fecc0277-4684-4f82-a26a-81fecdc36d85",
+                "resourcePath": "views\\78441b44-3f45-4048-a5fc-c91a3d2552be-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "31daf275-cc75-4a55-9a24-fa92fa9c465c",
             "Value": {
                 "id": "cdb15f7c-8e23-4852-bcb1-e048d1ee9b8a",
@@ -332,6 +348,14 @@
                 "id": "77bed653-3b58-4fe1-85e7-0d07472a4400",
                 "resourcePath": "sprites\\sBrick_1x2\\sBrick_1x2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "32d4c87a-3432-4096-b14f-697e6d9017c5",
+            "Value": {
+                "id": "2f2d3286-9747-4baa-8586-53c8587dc959",
+                "resourcePath": "rooms\\rSegment32\\rSegment32.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -403,6 +427,14 @@
             "Value": {
                 "id": "0a81f558-29f3-44b2-aa81-6a2079807842",
                 "resourcePath": "rooms\\rSegment1\\rSegment1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3fb9e5ef-6cdb-41f5-bb96-855ace7a814d",
+            "Value": {
+                "id": "c8f9a506-8475-4f79-a1ad-f14d65c2ba10",
+                "resourcePath": "rooms\\rSegment33\\rSegment33.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -831,6 +863,14 @@
             }
         },
         {
+            "Key": "977cdd3d-c293-47c4-a726-4e6122a8f0f6",
+            "Value": {
+                "id": "19a11518-71a8-4cc0-9f18-9793ab270820",
+                "resourcePath": "rooms\\rSegment29\\rSegment29.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "97e2e306-c358-431d-aadc-1ca248c78041",
             "Value": {
                 "id": "567a8d29-7cd5-4d23-9a6d-adc532a06466",
@@ -983,6 +1023,14 @@
             }
         },
         {
+            "Key": "b51de61f-d3fd-4132-a8ad-be9bfe3dd82a",
+            "Value": {
+                "id": "627b77f4-6d8b-43ef-a841-9454b24ae710",
+                "resourcePath": "rooms\\rSegment31\\rSegment31.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b7d15f05-9604-4fe1-a516-985ad16f1952",
             "Value": {
                 "id": "e9620ef3-0981-419f-8374-ee75313aa8d1",
@@ -1012,6 +1060,14 @@
                 "id": "0ed99722-beb3-4f0e-a3cc-c7041838d4a5",
                 "resourcePath": "views\\ba2048a3-a831-4860-a750-8be7d2118ff5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bd544b37-1448-436a-b6aa-2fc5fd980e9e",
+            "Value": {
+                "id": "6aa3f8b6-a207-48c5-9f20-94e0ef4c0cb7",
+                "resourcePath": "rooms\\rSegment34\\rSegment34.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1300,6 +1356,14 @@
                 "id": "15970c51-5db1-42cf-b621-9414b5c3ce64",
                 "resourcePath": "views\\ebb75af4-e156-48a1-bfe2-bc66ee037a55.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "efbf6864-00e2-457c-b3bf-609b82ef485e",
+            "Value": {
+                "id": "fd36fc27-0b31-43ee-9938-815a71c61ec3",
+                "resourcePath": "rooms\\rSegment35\\rSegment35.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
