@@ -1,28 +1,18 @@
 {
-    "id": "6c087134-5d8e-470c-9eeb-fb7bca08f12f",
+    "id": "c34ee0e7-1829-476e-9a08-bdcdfc21d8d2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oEnemy",
+    "name": "oItem",
     "eventList": [
         {
-            "id": "f6aa0447-cd3a-4c33-b2a3-3acdab537711",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "2a7cd3ff-761f-4186-a809-f5f455033dce",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "6c087134-5d8e-470c-9eeb-fb7bca08f12f"
-        },
-        {
-            "id": "b857b128-75a8-4f58-ab03-385a4c6222d9",
+            "id": "69c5a048-a109-4818-bf32-151928a1d27f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "6c087134-5d8e-470c-9eeb-fb7bca08f12f"
+            "eventtype": 3,
+            "m_owner": "c34ee0e7-1829-476e-9a08-bdcdfc21d8d2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "2fd62188-4181-40d9-aaeb-6e5e1adb7d3f",
+            "id": "7e5f3c26-6c98-46cb-bc48-c6048a705c35",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,12 +42,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "True",
-            "varName": "touch_damage",
-            "varType": 3
+            "value": "0",
+            "varName": "x_offset",
+            "varType": 0
         },
         {
-            "id": "40112049-746e-4196-8abc-376cb804064a",
+            "id": "c144c581-62c1-4017-8c12-817f7f3df541",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -66,9 +56,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
-            "varName": "knockback",
-            "varType": 1
+            "value": "0",
+            "varName": "y_offset",
+            "varType": 0
+        },
+        {
+            "id": "5b5b991f-8247-4ac7-9a50-569f4edbf3ea",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "held",
+            "varType": 3
         }
     ],
     "solid": false,
