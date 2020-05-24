@@ -11,4 +11,3 @@ enum AUDIO {
 }
 
 #macro SETTINGSFILE "settings.ini" 
-#macro SAVEFILE "dog.ini"

@@ -559,14 +559,6 @@
             }
         },
         {
-            "Key": "636e3438-d156-419d-b5dd-bd7fa685f97f",
-            "Value": {
-                "id": "e3c5edc5-5b97-4885-9750-80c13bd3a864",
-                "resourcePath": "scripts\\save\\save.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "6605ac96-639c-40f3-a95c-51b24779f80b",
             "Value": {
                 "id": "f3a98a45-96ce-48d4-b0be-330d8e14fe47",
@@ -708,14 +700,6 @@
                 "id": "8f46b607-67fa-427d-9f7e-3fa2a19ed9ad",
                 "resourcePath": "shaders\\shPalette\\shPalette.yy",
                 "resourceType": "GMShader"
-            }
-        },
-        {
-            "Key": "7bf71b00-321e-4744-b06b-6f90b6683eee",
-            "Value": {
-                "id": "00f1dbaf-2572-4a20-83e4-7caae369daf9",
-                "resourcePath": "scripts\\load\\load.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1159,14 +1143,6 @@
             }
         },
         {
-            "Key": "c5e1a462-1302-4741-b549-ef89b93b5656",
-            "Value": {
-                "id": "54670b0a-0caf-49b0-9a22-004dfb57d047",
-                "resourcePath": "sprites\\sGem_gui\\sGem_gui.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c6c88cc2-d373-4a29-ad6f-ca05b825ca53",
             "Value": {
                 "id": "a7c1cb39-62bd-4b66-9f52-e2f6faaac4d7",
@@ -1498,8 +1474,6 @@
         "3d9b7e8c-01ba-42ae-9aba-675ef2199550",
         "6bff8f18-e98d-49df-90b2-e48c7cedcb64",
         "ad8b784a-e092-4a5f-900c-f84d8ec0ccce",
-        "636e3438-d156-419d-b5dd-bd7fa685f97f",
-        "7bf71b00-321e-4744-b06b-6f90b6683eee",
         "c5bfffcc-630c-4369-b3af-7deb9fd62d8c",
         "e0657b77-9bc7-490b-a65d-367a79882032",
         "97e2e306-c358-431d-aadc-1ca248c78041",
