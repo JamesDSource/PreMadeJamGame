@@ -1,6 +1,6 @@
 /// @desc push_out(object)
 /// @arg object to push out of
-if(place_meeting(x, y, argument[0])) {
+if(place_meeting(x, y, argument[0]) && instance_place(x, y, argument[0]).object_index != oPlatform) {
 	for(var i = 0; i < 1000; i++) {
 		// right
 		if(!place_meeting(x + i, y, argument[0])) {

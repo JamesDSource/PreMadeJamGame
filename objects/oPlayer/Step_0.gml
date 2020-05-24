@@ -2,6 +2,7 @@ switch(state) {
 	case PLAYERSTATE.FREE:
 		vsp += GRAVITY;
 
+		down_platforms = keyboard_check(vk_down);
 		var dir = keyboard_check(vk_right) - keyboard_check(vk_left);
 		hsp = approach(hsp, max_spd * dir, acc);
 
@@ -74,4 +75,4 @@ switch(state) {
 if (i_frame > 0)
 	i_frame--;
 	
-if(mouse_check_button_pressed(mb_left)) instance_create_layer(mouse_x, mouse_y, "Instances", oPortal)
+//if(mouse_check_button_pressed(mb_left)) instance_create_layer(mouse_x, mouse_y, "Instances", oPlatform)

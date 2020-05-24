@@ -59,6 +59,20 @@
             "value": "0",
             "varName": "vsp",
             "varType": 0
+        },
+        {
+            "id": "9545811a-1a2b-4525-a445-e58822e2c891",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "down_platforms",
+            "varType": 3
         }
     ],
     "solid": false,
