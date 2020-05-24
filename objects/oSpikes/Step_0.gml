@@ -1,0 +1,1 @@
+if(place_meeting(x, y-1, oPlayer)) player_damage(1, 0);

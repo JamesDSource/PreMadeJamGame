@@ -1,1 +1,1 @@
-player_damage(1, 3 + hsp + vsp);
+player_damage(1, knockback + hsp + vsp);

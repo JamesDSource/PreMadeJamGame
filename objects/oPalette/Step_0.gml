@@ -35,4 +35,17 @@ switch(global.palette) {
 		global.pal_ltgray = [0.4, 0.4, 0.4];
 		break;
 	
+	case PALETTE.WELL:
+		global.pal_black = [1, 1, 1];
+		global.pal_white = [0, 0, 0];
+		global.pal_dkgray = [1, 0, 0];
+		global.pal_ltgray = [0.4, 0.4, 1];
+		break;
+		
+	case PALETTE.TAFFY:
+		global.pal_black = [1, 1, 1];
+		global.pal_white = [0.3, 0.3, 1];
+		global.pal_dkgray = [1, 0.6, 0.6];
+		global.pal_ltgray = [0, 0, 0.8];
+		break;
 }
