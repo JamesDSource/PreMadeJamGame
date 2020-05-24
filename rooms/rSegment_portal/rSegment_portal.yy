@@ -1,6 +1,6 @@
 
 {
-    "name": "rSegment_portal1",
+    "name": "rSegment_portal",
     "id": "9d4940a4-927a-49cd-8540-2a974c72b389",
     "creationCodeFile": "",
     "inheritCode": true,
