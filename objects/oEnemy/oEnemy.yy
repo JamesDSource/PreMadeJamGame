@@ -69,6 +69,20 @@
             "value": "3",
             "varName": "knockback",
             "varType": 1
+        },
+        {
+            "id": "0d294d90-6c14-4900-9788-36f713d5a236",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "bunny",
+            "varType": 3
         }
     ],
     "solid": false,
