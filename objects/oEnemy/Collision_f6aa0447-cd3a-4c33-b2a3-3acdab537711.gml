@@ -1,0 +1,1 @@
+player_damage(1, 3 + abs(hsp) + abs(vsp));

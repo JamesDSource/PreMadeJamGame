@@ -5,7 +5,8 @@ enum PAGE {
 
 enum ELEMENTTYPE {
 	TRANSFER,
-	SCRIPT
+	SCRIPT,
+	SLIDER
 }
 
 pages[PAGE.MAIN] = [
@@ -14,5 +15,9 @@ pages[PAGE.MAIN] = [
 	["Quit", ELEMENTTYPE.SCRIPT, quit_game]
 ]
 
+pages[PAGE.SETTINGS] = [
+	["Palette", ELEMENTTYPE.SLIDER, "palette", ["Scrubbed", "NES", "Die Farben", "50 Stars"], [PALETTE.SCRUBBED, PALETTE.NES, PALETTE.DIEFARBEN, PALETTE.STARSANDSTRIPES]],
+	["Back", ELEMENTTYPE.SCRIPT, settings_back]
+]
 page = PAGE.MAIN;
 index = 0;

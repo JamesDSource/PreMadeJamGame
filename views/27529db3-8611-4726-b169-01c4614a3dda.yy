@@ -9,7 +9,8 @@
         "d344fd56-b972-4b7d-aa44-9560e78b5ed0",
         "cdb03a41-8008-48cc-884a-f4f5aa9e54b1",
         "cac36333-c977-4983-8687-0975eaf282a9",
-        "ca710bb0-e06d-41c5-bca8-ec98579867a4"
+        "ca710bb0-e06d-41c5-bca8-ec98579867a4",
+        "1c74f896-105b-48fd-90df-8d803e44e7d2"
     ],
     "filterType": "GMSprite",
     "folderName": "Animals",

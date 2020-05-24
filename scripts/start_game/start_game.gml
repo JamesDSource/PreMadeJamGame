@@ -1,2 +1,2 @@
-oTransitions.target = rRandom_test;
+oTransitions.target = rLevel1;
 oTransitions.mode = MODE.CHANGE;
