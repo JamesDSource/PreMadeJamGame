@@ -69,6 +69,14 @@ switch(state) {
 			oTransitions.mode = MODE.NEXT;
 		}
 		break;
+	case PLAYERSTATE.DEAD:
+		vsp += GRAVITY;
+		hsp = approach(hsp, 0, acc);
+		image_angle = 180;
+		image_speed = 0;
+		image_index = 0;
+		event_inherited();
+		break;
 }
 
 if (i_frame > 0)

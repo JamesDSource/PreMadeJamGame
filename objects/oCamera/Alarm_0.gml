@@ -1,4 +1,14 @@
-instance_deactivate_object(oBlock);
-instance_deactivate_object(oEntity);
-instance_activate_region(x - VIEWWIDTH*1.5, y - VIEWHEIGHT*1.5, VIEWWIDTH*3, VIEWHEIGHT*3, true);
+instance_activate_all();
+
+var block_dist = 350;
+var entity_dist = 300;
+
+with(oBlock) {
+	if(point_distance(x, y, other.x, other.y) > block_dist) instance_deactivate_object(id);
+}
+
+with(oEntity) {
+	if(point_distance(x, y, other.x, other.y) > entity_dist) instance_deactivate_object(id);
+}
+
 alarm[0] = 10;

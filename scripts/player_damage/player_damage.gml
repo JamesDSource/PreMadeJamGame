@@ -12,6 +12,12 @@ if(instance_exists(oPlayer)) {
 			global.player_health -= damage;
 			global.player_health = min(global.player_health, global.player_health_max);
 			
+			if(global.player_health == 0) {
+				state = PLAYERSTATE.DEAD;
+				alarm[0] = room_speed * 5; 
+			}
+			
+			
 			var angle = point_direction(other.x, other.y, x, y);
 			hsp = lengthdir_x(knockback, angle);
 			vsp = lengthdir_y(knockback, angle);
