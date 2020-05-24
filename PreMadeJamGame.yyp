@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "3d9b7e8c-01ba-42ae-9aba-675ef2199550",
+            "Value": {
+                "id": "beb0ae28-97fb-4ee2-9d17-ba208646d506",
+                "resourcePath": "scripts\\wave\\wave.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3df2368f-0c13-4aeb-a8e9-0517192dd338",
             "Value": {
                 "id": "0a81f558-29f3-44b2-aa81-6a2079807842",
@@ -743,6 +751,14 @@
             }
         },
         {
+            "Key": "96f0235d-a3a9-4877-a5d0-bdfd5eb5a3eb",
+            "Value": {
+                "id": "52238bdf-6bd8-4563-bc67-7c2fb2bc1e46",
+                "resourcePath": "objects\\oGem\\oGem.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "97b2805d-4820-431f-9a84-4bf756be7d31",
             "Value": {
                 "id": "655322d7-fb3e-4237-8c11-f0a1aeb0f7da",
@@ -788,6 +804,14 @@
                 "id": "af33da8c-4b1c-4274-9f51-e45305961a29",
                 "resourcePath": "sprites\\sCreature2\\sCreature2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a70da7c1-44f4-44e0-ba1b-31cf204ae782",
+            "Value": {
+                "id": "f240ba85-98f5-41a6-8026-1c2196f79659",
+                "resourcePath": "objects\\oBubble\\oBubble.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -908,6 +932,14 @@
                 "id": "5d102e31-3a3e-4dfa-bc0a-a4c4f891e966",
                 "resourcePath": "objects\\oLevel_gen\\oLevel_gen.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "be1fd5d0-30c7-4bc4-834c-0e74f8af978a",
+            "Value": {
+                "id": "88c29a8b-28f6-4fd3-8d60-78da38e3a428",
+                "resourcePath": "views\\be1fd5d0-30c7-4bc4-834c-0e74f8af978a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1255,6 +1287,7 @@
         "816e3536-f8aa-4906-b172-3e6bd2e046e2",
         "7f4384ce-04a5-4a3d-b4cf-9674dfeba975",
         "9ebb23c0-3158-4770-ba02-e531e9b50d25",
+        "3d9b7e8c-01ba-42ae-9aba-675ef2199550",
         "6bff8f18-e98d-49df-90b2-e48c7cedcb64",
         "ad8b784a-e092-4a5f-900c-f84d8ec0ccce",
         "c5bfffcc-630c-4369-b3af-7deb9fd62d8c",
