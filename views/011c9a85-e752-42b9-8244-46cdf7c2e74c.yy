@@ -14,7 +14,8 @@
         "ad8acf32-da04-4eb8-a707-9151ed2bf9c2",
         "b8045c66-7f59-4c68-9087-54450095cb9c",
         "e974db4b-09a1-4e69-86fc-68b6a899e680",
-        "175178ed-3af3-4844-b04f-089e454d4645"
+        "175178ed-3af3-4844-b04f-089e454d4645",
+        "c1f80050-295a-46cb-9d83-ea79d54fb9f8"
     ],
     "filterType": "GMSprite",
     "folderName": "Sections",

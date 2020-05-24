@@ -28,6 +28,8 @@ switch(state) {
 			state = PLAYERSTATE.BITE;	
 		}
 		
+		if(portal != noone) state = PLAYERSTATE.PORTAL;
+		
 		event_inherited();
 		break;
 		
@@ -52,7 +54,24 @@ switch(state) {
 		}
 		else state = PLAYERSTATE.FREE;
 		break;
+		
+	case PLAYERSTATE.PORTAL:
+		x = approach(x, portal.x, 3);
+		y = approach(y, portal.y, 3);
+		image_angle += 10;
+		if(floor(point_distance(x, y, portal.x, portal.y)) == 0) {
+			image_xscale = approach(image_xscale, 0, 0.01);	
+			image_yscale = approach(image_yscale, 0, 0.01);	
+		}
+		
+		if(image_xscale == 0 && image_yscale == 0) {
+			oTransitions.target = portal.target;	
+			oTransitions.mode = MODE.CHANGE;
+		}
+		break;
 }
 
 if (i_frame > 0)
 	i_frame--;
+	
+if(mouse_check_button_pressed(mb_left)) instance_create_layer(mouse_x, mouse_y, "Instances", oPortal)
