@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "33c12813-1c58-4107-b7b1-d1bcd0d4116b",
+            "Value": {
+                "id": "0f72ab9b-b7d1-4c42-8abd-48feb3802247",
+                "resourcePath": "rooms\\rBoss\\rBoss.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "341620fc-f623-4f92-a52c-fcf7f284690f",
             "Value": {
                 "id": "8a8c7dbf-9de9-456e-acaf-74f3b45c2ab4",
@@ -1852,6 +1860,14 @@
                 "id": "d0061ad6-1cf9-44f5-a322-33fa9e615d34",
                 "resourcePath": "sprites\\sWolf\\sWolf.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f156718e-8690-4578-b636-212b131ab1c2",
+            "Value": {
+                "id": "d06eb0ac-d037-480c-9e4b-221bdda1b218",
+                "resourcePath": "objects\\oWizard\\oWizard.yy",
+                "resourceType": "GMObject"
             }
         },
         {
