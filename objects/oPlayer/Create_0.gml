@@ -5,8 +5,6 @@ acc = 0.2;
 jump_force = -3;
 jumping = false;
 
-global.gems = 0;
-global.player_health_max = 6;
 i_frame = 0;
 i_frame_max = 120;
 
@@ -15,6 +13,7 @@ enum PLAYERSTATE {
 	BITE,
 	BUBBLE,
 	PORTAL,
+	SHOPPING,
 	DEAD
 }
 
@@ -25,5 +24,6 @@ flash = false;
 
 bubble = noone;
 portal = noone;
+item = noone;
 
 load();
