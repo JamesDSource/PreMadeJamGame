@@ -935,6 +935,14 @@
             }
         },
         {
+            "Key": "7ac16f6a-564c-4dff-b3f8-55f15e881adf",
+            "Value": {
+                "id": "555ea370-d07c-41de-991c-bb28db7ce8aa",
+                "resourcePath": "objects\\oSlime\\oSlime.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7ae3fb5e-a4f1-450f-ba6a-96c31c2ffe9b",
             "Value": {
                 "id": "8f46b607-67fa-427d-9f7e-3fa2a19ed9ad",
@@ -1236,6 +1244,14 @@
                 "id": "df8ed598-0d04-4668-9101-18c3ee43325b",
                 "resourcePath": "scripts\\draw_text_shadow\\draw_text_shadow.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a17d0f94-2ffe-4f20-8951-d0680eb28902",
+            "Value": {
+                "id": "3cf706b3-ef05-4e85-900e-d78dbf9b7482",
+                "resourcePath": "objects\\oGrid\\oGrid.yy",
+                "resourceType": "GMObject"
             }
         },
         {
