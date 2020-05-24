@@ -9,5 +9,5 @@ if(held && keyboard_check_pressed(ord("X"))) {
 if(abs(hsp) > 2) {
 	image_angle += 5;
 	var enemy = instance_place(x, y, oEnemy);
-	if(enemy != noone) instance_destroy(enemy);
+	if(enemy != noone) attack_enemy(enemy);
 }
