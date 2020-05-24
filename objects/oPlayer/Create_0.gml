@@ -25,5 +25,6 @@ flash = false;
 
 bubble = noone;
 portal = noone;
+item = noone;
 
 load();
