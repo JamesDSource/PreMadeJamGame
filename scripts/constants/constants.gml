@@ -8,3 +8,5 @@ enum AUDIO {
 	BITE,
 	DAMAGE
 }
+
+#macro SETTINGSFILE "settings.ini"
