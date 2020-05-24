@@ -3,7 +3,8 @@ enum PALETTE {
 	SCRUBBED,
 	NES,
 	DIEFARBEN,
-	STARSANDSTRIPES
+	STARSANDSTRIPES,
+	NOIR
 }
 
 global.pal_black = [0.0, 0.0, 0.0];

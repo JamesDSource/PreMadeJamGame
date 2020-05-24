@@ -16,7 +16,7 @@ pages[PAGE.MAIN] = [
 ]
 
 pages[PAGE.SETTINGS] = [
-	["Palette", ELEMENTTYPE.SLIDER, "palette", ["Scrubbed", "NES", "Die Farben", "50 Stars"], [PALETTE.SCRUBBED, PALETTE.NES, PALETTE.DIEFARBEN, PALETTE.STARSANDSTRIPES]],
+	["Palette", ELEMENTTYPE.SLIDER, "palette", ["Scrubbed", "NES", "Die Farben", "50 Stars", "Noir"], [PALETTE.SCRUBBED, PALETTE.NES, PALETTE.DIEFARBEN, PALETTE.STARSANDSTRIPES, PALETTE.NOIR]],
 	["Back", ELEMENTTYPE.SCRIPT, settings_back]
 ]
 page = PAGE.MAIN;
