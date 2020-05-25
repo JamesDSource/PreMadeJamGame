@@ -24,8 +24,15 @@ segment_rooms = [
 	rSegment_shop2,
 	rSegment_shop3
 ];
+
+var segment_amounts = [
+	25,
+	25,
+	20
+]
+
 for(var r = 1; r <= 3; r++) {
-	for(var c = 1; c <= 25; c++) {
+	for(var c = 1; c <= segment_amounts[r-1]; c++) {
 		var rm = asset_get_index("rSegment" + string(r) + "_" + string(c));
 		if(rm != -1) segment_rooms[array_length_1d(segment_rooms)] = rm;
 	}
